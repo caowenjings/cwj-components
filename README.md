@@ -1,13 +1,11 @@
-# cwj-components
-
-一个基于 dumi 搭建的 react 组件库,
+# cwj-components-docs
 
 ## Getting Started
 
 Install dependencies,
 
 ```bash
-$ npm i cwj-components
+$ npm i
 ```
 
 Start the dev server,
