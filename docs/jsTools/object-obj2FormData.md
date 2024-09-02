@@ -8,7 +8,7 @@ group:
 将 object 转换成 formData
 
 ```jsx | pure
-import { obj2FormData } from '@szl/jstools';
+import { obj2FormData } from 'cwj-jstools';
 
 const formData = obj2FormData({ name: '小明', age: 20 });
 console.log(formData.get('name'));

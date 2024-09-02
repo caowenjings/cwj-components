@@ -20,7 +20,7 @@ order: 2
 ```jsx
 import React from 'react';
 import { Button } from 'antd';
-import { html2Pdf } from '@szl/jstools';
+import { html2Pdf } from 'cwj-jstools';
 
 export default function () {
   function download() {

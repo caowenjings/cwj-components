@@ -13,7 +13,7 @@ order: 3
 对姓名进行脱敏处理
 
 ```jsx | pure
-import { tmName } from '@szl/jstools';
+import { tmName } from 'cwj-jstools';
 
 console.log(tmName('小明'));
 // => 小*
@@ -32,7 +32,7 @@ console.log(tmName('奥斯特洛夫斯基'));
 对身份证号进行脱敏处理
 
 ```jsx | pure
-import { tmIdCard } from '@szl/jstools';
+import { tmIdCard } from 'cwj-jstools';
 
 console.log(tmIdCard('512328199001012228'));
 // => 5123************28
@@ -43,7 +43,7 @@ console.log(tmIdCard('512328199001012228'));
 对电话号进行脱敏处理
 
 ```jsx | pure
-import { tmPhone } from '@szl/jstools';
+import { tmPhone } from 'cwj-jstools';
 
 console.log(tmPhone('13612341234'));
 // => 136****1234
@@ -57,7 +57,7 @@ console.log(tmPhone('88886666'));
 对邮箱进行脱敏处理
 
 ```jsx | pure
-import { tmEmail } from '@szl/jstools';
+import { tmEmail } from 'cwj-jstools';
 
 console.log(tmEmail('123456@qq.com'));
 // => 123***@qq.com

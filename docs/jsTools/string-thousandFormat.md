@@ -19,7 +19,7 @@ order: 5
 3.`[symbol = ',']`(string)：分割的符号
 
 ```jsx | pure
-import { thousandFormat } from '@szl/jstools';
+import { thousandFormat } from 'cwj-jstools';
 
 let num = 123456789;
 console.log(thousandFormat(num));

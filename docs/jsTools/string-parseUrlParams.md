@@ -9,7 +9,7 @@ order: 2
 解析 url 中的参数，得到对象形式 key:value
 
 ```jsx | pure
-import { parseUrlParams } from '@szl/jstools';
+import { parseUrlParams } from 'cwj-jstools';
 console.log(
   parseUrlParams(
     'https://www.baidu.com/?username=zhangsan&id=888&id=666&city=%E5%8C%97%E4%BA%AC&checked',

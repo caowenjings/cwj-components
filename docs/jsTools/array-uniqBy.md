@@ -17,7 +17,7 @@ group:
 2.`key`([string])：key
 
 ```jsx | pure
-import { uniqBy } from '@szl/jstools';
+import { uniqBy } from 'cwj-jstools';
 
 const list = [
   { value: '1', label: '1' },

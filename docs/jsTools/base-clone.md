@@ -8,7 +8,7 @@ group:
 深拷贝，修改拷贝后的数据并不会影响原始数据
 
 ```jsx | pure
-import { clone } from '@szl/jstools';
+import { clone } from 'cwj-jstools';
 
 const obj1 = { name: '小敏' };
 const obj2 = clone(obj1);

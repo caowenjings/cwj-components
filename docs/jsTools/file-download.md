@@ -20,7 +20,7 @@ order: 1
 3.`[type]`(string)：文件的类型
 
 ```jsx | pure
-import { streamDownload } from '@szl/jstools';
+import { streamDownload } from 'cwj-jstools';
 
 xhr.get('/xxxx').then((res) => {
   streamDownload(res.data, 'test.pdf');

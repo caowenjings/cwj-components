@@ -9,7 +9,7 @@ group:
 通过 sessionStorage 把数据保存在浏览器中，在原有的基础上对存入的数据进行统一处理，不需要用户对存入数据格式的单独处理。
 
 ```jsx | pure
-import { sessionCache } from '@szl/jstools';
+import { sessionCache } from 'cwj-jstools';
 
 sessionCache.setItem('info', { id: 1, age: 10 }， true);
 console.log(localCache.getItem('info', true));

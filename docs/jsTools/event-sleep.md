@@ -9,7 +9,7 @@ order: 1
 
 ```tsx
 import React, { useState, useEffect } from 'react';
-import { sleep } from '@szl/jstools';
+import { sleep } from 'cwj-jstools';
 
 export default function () {
   const [str, setStr] = useState<string>('');

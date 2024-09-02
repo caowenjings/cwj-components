@@ -9,7 +9,7 @@ order: 4
 获取随机颜色
 
 ```jsx | pure
-import { randomColor } from '@szl/jstools';
+import { randomColor } from 'cwj-jstools';
 
 console.log(randomColor());
 // => #feb589

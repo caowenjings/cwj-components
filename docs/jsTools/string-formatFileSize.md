@@ -19,7 +19,7 @@ order: 6
 3.`[unit = ["Bytes", "KB", "MB", "GB", "TB"]]`(string[])：格式化的单位数组，按从小到大的顺序
 
 ```jsx | pure
-import { formatFileSize } from '@szl/jstools';
+import { formatFileSize } from 'cwj-jstools';
 
 const num = 1000;
 const num1 = 2048;
