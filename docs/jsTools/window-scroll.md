@@ -12,7 +12,7 @@ order: 1
 ```tsx
 import React, { useState, useRef } from 'react';
 import { Button, Space } from 'antd';
-// import { scrollToTop, scrollToElement } from 'cwj-jstools';
+import { scrollToTop, scrollToElement } from 'cwj-jstools';
 
 export default () => {
   const ref = useRef();

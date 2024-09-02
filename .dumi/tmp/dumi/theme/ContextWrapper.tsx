@@ -14,7 +14,7 @@ import { warning } from '/Users/caowenjing/Documents/React练习/组件库/cwj-c
 const entryExports = {};
 
 // Static content
-const pkg = { name: 'cwj-components-docs', version: '1.0.0' };
+const pkg = { name: 'cwj-components', version: '1.0.0' };
 const historyType = 'browser';
 const hostname = undefined;
 const themeConfig = {

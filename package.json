@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "cwj-components-docs",
+  "name": "cwj-components",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -31,7 +31,7 @@
   },
   "dependencies": {
     "antd": "^5.20.3",
-    "cwj-jstools": "^1.0.3",
+    "cwj-jstools": "^1.0.4",
     "dumi": "^2.4.9",
     "react": "^18.0.0"
   },
