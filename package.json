@@ -31,7 +31,8 @@
   },
   "dependencies": {
     "antd": "^5.20.3",
-    "cwj-jstools": "^1.0.4",
+    "cwj-directives": "^1.0.1",
+    "cwj-jstools": "^1.0.5",
     "dumi": "^2.4.9",
     "react": "^18.0.0"
   },

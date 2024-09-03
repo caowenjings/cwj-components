@@ -23,7 +23,7 @@ group:
 `[item, itemPath]`([T,T[]])：item 为查找到的数据，itemPath 是数据的路径
 
 ```jsx | pure
-import { deepSearch } from '@szl/jstools';
+import { deepSearch } from 'cwj-jstools';
 
 const list = [
   {

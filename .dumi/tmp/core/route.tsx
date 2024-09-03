@@ -8,34 +8,84 @@ export async function getRoutes() {
     '404': { id: '404', path: '*', parentId: 'DocLayout' },
     'dumi-context-layout': { id: 'dumi-context-layout', path: '/', isLayout: true },
     DocLayout: { id: 'DocLayout', path: '/', parentId: 'dumi-context-layout', isLayout: true },
+    'docs/jsTools/string-formatFileSize': {
+      path: 'js-tools/string-format-file-size',
+      id: 'docs/jsTools/string-formatFileSize',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/string-parseUrlParams': {
+      path: 'js-tools/string-parse-url-params',
+      id: 'docs/jsTools/string-parseUrlParams',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/string-thousandFormat': {
+      path: 'js-tools/string-thousand-format',
+      id: 'docs/jsTools/string-thousandFormat',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/array-deepSearchAll': {
+      path: 'js-tools/array-deep-search-all',
+      id: 'docs/jsTools/array-deepSearchAll',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/object-obj2FormData': {
+      path: 'js-tools/object-obj2-form-data',
+      id: 'docs/jsTools/object-obj2FormData',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/cache-sessionCache': {
+      path: 'js-tools/cache-session-cache',
+      id: 'docs/jsTools/cache-sessionCache',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/event-eventEmitter': {
+      path: 'js-tools/event-event-emitter',
+      id: 'docs/jsTools/event-eventEmitter',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/string-randomColor': {
+      path: 'js-tools/string-random-color',
+      id: 'docs/jsTools/string-randomColor',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/window-fullScreen': {
+      path: 'js-tools/window-full-screen',
+      id: 'docs/jsTools/window-fullScreen',
+      parentId: 'DocLayout',
+    },
     'docs/components/themeProvider': {
       path: 'components/theme-provider',
       id: 'docs/components/themeProvider',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/formatFileSize': {
-      path: 'js-tools/format-file-size',
-      id: 'docs/jsTools/formatFileSize',
+    'docs/jsTools/array-deepSearch': {
+      path: 'js-tools/array-deep-search',
+      id: 'docs/jsTools/array-deepSearch',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/parseUrlParams': {
-      path: 'js-tools/parse-url-params',
-      id: 'docs/jsTools/parseUrlParams',
+    'docs/jsTools/cache-localCache': {
+      path: 'js-tools/cache-local-cache',
+      id: 'docs/jsTools/cache-localCache',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/streamDownload': {
-      path: 'js-tools/stream-download',
-      id: 'docs/jsTools/streamDownload',
+    'docs/jsTools/base-isDataType': {
+      path: 'js-tools/base-is-data-type',
+      id: 'docs/jsTools/base-isDataType',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/thousandFormat': {
-      path: 'js-tools/thousand-format',
-      id: 'docs/jsTools/thousandFormat',
+    'docs/jsTools/window-copyText': {
+      path: 'js-tools/window-copy-text',
+      id: 'docs/jsTools/window-copyText',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/deepSearchAll': {
-      path: 'js-tools/deep-search-all',
-      id: 'docs/jsTools/deepSearchAll',
+    'docs/jsTools/file-download': {
+      path: 'js-tools/file-download',
+      id: 'docs/jsTools/file-download',
+      parentId: 'DocLayout',
+    },
+    'docs/jsTools/file-html2Pdf': {
+      path: 'js-tools/file-html2-pdf',
+      id: 'docs/jsTools/file-html2Pdf',
       parentId: 'DocLayout',
     },
     'docs/jsTools/window-scroll': {
@@ -43,39 +93,39 @@ export async function getRoutes() {
       id: 'docs/jsTools/window-scroll',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/eventEmitter': {
-      path: 'js-tools/event-emitter',
-      id: 'docs/jsTools/eventEmitter',
+    'docs/jsTools/array-uniqBy': {
+      path: 'js-tools/array-uniq-by',
+      id: 'docs/jsTools/array-uniqBy',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/obj2FormData': {
-      path: 'js-tools/obj2-form-data',
-      id: 'docs/jsTools/obj2FormData',
+    'docs/jsTools/event-sleep': {
+      path: 'js-tools/event-sleep',
+      id: 'docs/jsTools/event-sleep',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/sessionCache': {
-      path: 'js-tools/session-cache',
-      id: 'docs/jsTools/sessionCache',
+    'docs/jsTools/object-omit': {
+      path: 'js-tools/object-omit',
+      id: 'docs/jsTools/object-omit',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/randomColor': {
-      path: 'js-tools/random-color',
-      id: 'docs/jsTools/randomColor',
+    'docs/jsTools/object-pick': {
+      path: 'js-tools/object-pick',
+      id: 'docs/jsTools/object-pick',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/deepSearch': {
-      path: 'js-tools/deep-search',
-      id: 'docs/jsTools/deepSearch',
+    'docs/jsTools/string-uuid': {
+      path: 'js-tools/string-uuid',
+      id: 'docs/jsTools/string-uuid',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/isDataType': {
-      path: 'js-tools/is-data-type',
-      id: 'docs/jsTools/isDataType',
+    'docs/jsTools/base-clone': {
+      path: 'js-tools/base-clone',
+      id: 'docs/jsTools/base-clone',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/localCache': {
-      path: 'js-tools/local-cache',
-      id: 'docs/jsTools/localCache',
+    'docs/jsTools/string-tm': {
+      path: 'js-tools/string-tm',
+      id: 'docs/jsTools/string-tm',
       parentId: 'DocLayout',
     },
     'docs/jsTools/validates': {
@@ -93,51 +143,7 @@ export async function getRoutes() {
       id: 'docs/components/index',
       parentId: 'DocLayout',
     },
-    'docs/jsTools/html2Pdf': {
-      path: 'js-tools/html2-pdf',
-      id: 'docs/jsTools/html2Pdf',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/isObject': {
-      path: 'js-tools/is-object',
-      id: 'docs/jsTools/isObject',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/isRegExp': {
-      path: 'js-tools/is-reg-exp',
-      id: 'docs/jsTools/isRegExp',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/isArray': {
-      path: 'js-tools/is-array',
-      id: 'docs/jsTools/isArray',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/isDate': {
-      path: 'js-tools/is-date',
-      id: 'docs/jsTools/isDate',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/uniqBy': {
-      path: 'js-tools/uniq-by',
-      id: 'docs/jsTools/uniqBy',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/clone': {
-      path: 'js-tools/clone',
-      id: 'docs/jsTools/clone',
-      parentId: 'DocLayout',
-    },
     'docs/jsTools/index': { path: 'js-tools', id: 'docs/jsTools/index', parentId: 'DocLayout' },
-    'docs/jsTools/sleep': {
-      path: 'js-tools/sleep',
-      id: 'docs/jsTools/sleep',
-      parentId: 'DocLayout',
-    },
-    'docs/jsTools/omit': { path: 'js-tools/omit', id: 'docs/jsTools/omit', parentId: 'DocLayout' },
-    'docs/jsTools/pick': { path: 'js-tools/pick', id: 'docs/jsTools/pick', parentId: 'DocLayout' },
-    'docs/jsTools/uuid': { path: 'js-tools/uuid', id: 'docs/jsTools/uuid', parentId: 'DocLayout' },
-    'docs/jsTools/tm': { path: 'js-tools/tm', id: 'docs/jsTools/tm', parentId: 'DocLayout' },
     'docs/test/index': { path: 'test', id: 'docs/test/index', parentId: 'DocLayout' },
     'docs/test/test': { path: 'test/test', id: 'docs/test/test', parentId: 'DocLayout' },
     'docs/index': { path: '', id: 'docs/index', parentId: 'DocLayout' },
@@ -164,40 +170,100 @@ export async function getRoutes() {
             /* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
           ),
       ),
+      'docs/jsTools/string-formatFileSize': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__string-formatFileSize.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/string-formatFileSize.md'
+          ),
+      ),
+      'docs/jsTools/string-parseUrlParams': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__string-parseUrlParams.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/string-parseUrlParams.md'
+          ),
+      ),
+      'docs/jsTools/string-thousandFormat': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__string-thousandFormat.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/string-thousandFormat.md'
+          ),
+      ),
+      'docs/jsTools/array-deepSearchAll': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__array-deepSearchAll.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/array-deepSearchAll.md'
+          ),
+      ),
+      'docs/jsTools/object-obj2FormData': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__object-obj2FormData.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/object-obj2FormData.md'
+          ),
+      ),
+      'docs/jsTools/cache-sessionCache': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__cache-sessionCache.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/cache-sessionCache.md'
+          ),
+      ),
+      'docs/jsTools/event-eventEmitter': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__event-eventEmitter.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/event-eventEmitter.md'
+          ),
+      ),
+      'docs/jsTools/string-randomColor': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__string-randomColor.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/string-randomColor.md'
+          ),
+      ),
+      'docs/jsTools/window-fullScreen': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__window-fullScreen.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/window-fullScreen.md'
+          ),
+      ),
       'docs/components/themeProvider': React.lazy(
         () =>
           import(
             /* webpackChunkName: "docs__components__themeProvider.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/components/themeProvider.md'
           ),
       ),
-      'docs/jsTools/formatFileSize': React.lazy(
+      'docs/jsTools/array-deepSearch': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__formatFileSize.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/formatFileSize.md'
+            /* webpackChunkName: "docs__jsTools__array-deepSearch.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/array-deepSearch.md'
           ),
       ),
-      'docs/jsTools/parseUrlParams': React.lazy(
+      'docs/jsTools/cache-localCache': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__parseUrlParams.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/parseUrlParams.md'
+            /* webpackChunkName: "docs__jsTools__cache-localCache.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/cache-localCache.md'
           ),
       ),
-      'docs/jsTools/streamDownload': React.lazy(
+      'docs/jsTools/base-isDataType': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__streamDownload.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/streamDownload.md'
+            /* webpackChunkName: "docs__jsTools__base-isDataType.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/base-isDataType.md'
           ),
       ),
-      'docs/jsTools/thousandFormat': React.lazy(
+      'docs/jsTools/window-copyText': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__thousandFormat.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/thousandFormat.md'
+            /* webpackChunkName: "docs__jsTools__window-copyText.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/window-copyText.md'
           ),
       ),
-      'docs/jsTools/deepSearchAll': React.lazy(
+      'docs/jsTools/file-download': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__deepSearchAll.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/deepSearchAll.md'
+            /* webpackChunkName: "docs__jsTools__file-download.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/file-download.md'
+          ),
+      ),
+      'docs/jsTools/file-html2Pdf': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__jsTools__file-html2Pdf.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/file-html2Pdf.md'
           ),
       ),
       'docs/jsTools/window-scroll': React.lazy(
@@ -206,46 +272,46 @@ export async function getRoutes() {
             /* webpackChunkName: "docs__jsTools__window-scroll.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/window-scroll.md'
           ),
       ),
-      'docs/jsTools/eventEmitter': React.lazy(
+      'docs/jsTools/array-uniqBy': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__eventEmitter.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/eventEmitter.md'
+            /* webpackChunkName: "docs__jsTools__array-uniqBy.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/array-uniqBy.md'
           ),
       ),
-      'docs/jsTools/obj2FormData': React.lazy(
+      'docs/jsTools/event-sleep': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__obj2FormData.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/obj2FormData.md'
+            /* webpackChunkName: "docs__jsTools__event-sleep.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/event-sleep.md'
           ),
       ),
-      'docs/jsTools/sessionCache': React.lazy(
+      'docs/jsTools/object-omit': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__sessionCache.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/sessionCache.md'
+            /* webpackChunkName: "docs__jsTools__object-omit.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/object-omit.md'
           ),
       ),
-      'docs/jsTools/randomColor': React.lazy(
+      'docs/jsTools/object-pick': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__randomColor.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/randomColor.md'
+            /* webpackChunkName: "docs__jsTools__object-pick.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/object-pick.md'
           ),
       ),
-      'docs/jsTools/deepSearch': React.lazy(
+      'docs/jsTools/string-uuid': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__deepSearch.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/deepSearch.md'
+            /* webpackChunkName: "docs__jsTools__string-uuid.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/string-uuid.md'
           ),
       ),
-      'docs/jsTools/isDataType': React.lazy(
+      'docs/jsTools/base-clone': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__isDataType.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/isDataType.md'
+            /* webpackChunkName: "docs__jsTools__base-clone.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/base-clone.md'
           ),
       ),
-      'docs/jsTools/localCache': React.lazy(
+      'docs/jsTools/string-tm': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__jsTools__localCache.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/localCache.md'
+            /* webpackChunkName: "docs__jsTools__string-tm.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/string-tm.md'
           ),
       ),
       'docs/jsTools/validates': React.lazy(
@@ -266,82 +332,10 @@ export async function getRoutes() {
             /* webpackChunkName: "docs__components__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/components/index.md'
           ),
       ),
-      'docs/jsTools/html2Pdf': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__html2Pdf.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/html2Pdf.md'
-          ),
-      ),
-      'docs/jsTools/isObject': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__isObject.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/isObject.md'
-          ),
-      ),
-      'docs/jsTools/isRegExp': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__isRegExp.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/isRegExp.md'
-          ),
-      ),
-      'docs/jsTools/isArray': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__isArray.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/isArray.md'
-          ),
-      ),
-      'docs/jsTools/isDate': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__isDate.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/isDate.md'
-          ),
-      ),
-      'docs/jsTools/uniqBy': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__uniqBy.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/uniqBy.md'
-          ),
-      ),
-      'docs/jsTools/clone': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__clone.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/clone.md'
-          ),
-      ),
       'docs/jsTools/index': React.lazy(
         () =>
           import(
             /* webpackChunkName: "docs__jsTools__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/index.md'
-          ),
-      ),
-      'docs/jsTools/sleep': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__sleep.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/sleep.md'
-          ),
-      ),
-      'docs/jsTools/omit': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__omit.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/omit.md'
-          ),
-      ),
-      'docs/jsTools/pick': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__pick.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/pick.md'
-          ),
-      ),
-      'docs/jsTools/uuid': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__uuid.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/uuid.md'
-          ),
-      ),
-      'docs/jsTools/tm': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__jsTools__tm.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/tm.md'
           ),
       ),
       'docs/test/index': React.lazy(
