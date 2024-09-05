@@ -33,6 +33,11 @@ export async function getRoutes() {
       id: 'docs/jsTools/object-obj2FormData',
       parentId: 'DocLayout',
     },
+    'docs/directives/defineDirective': {
+      path: 'directives/define-directive',
+      id: 'docs/directives/defineDirective',
+      parentId: 'DocLayout',
+    },
     'docs/jsTools/cache-sessionCache': {
       path: 'js-tools/cache-session-cache',
       id: 'docs/jsTools/cache-sessionCache',
@@ -76,6 +81,11 @@ export async function getRoutes() {
     'docs/jsTools/window-copyText': {
       path: 'js-tools/window-copy-text',
       id: 'docs/jsTools/window-copyText',
+      parentId: 'DocLayout',
+    },
+    'docs/directives/rPermission': {
+      path: 'directives/r-permission',
+      id: 'docs/directives/rPermission',
       parentId: 'DocLayout',
     },
     'docs/jsTools/file-download': {
@@ -143,9 +153,19 @@ export async function getRoutes() {
       id: 'docs/components/index',
       parentId: 'DocLayout',
     },
+    'docs/directives/index': {
+      path: 'directives',
+      id: 'docs/directives/index',
+      parentId: 'DocLayout',
+    },
+    'docs/devTools/index': { path: 'dev-tools', id: 'docs/devTools/index', parentId: 'DocLayout' },
+    'docs/directives/rIf': {
+      path: 'directives/r-if',
+      id: 'docs/directives/rIf',
+      parentId: 'DocLayout',
+    },
     'docs/jsTools/index': { path: 'js-tools', id: 'docs/jsTools/index', parentId: 'DocLayout' },
-    'docs/test/index': { path: 'test', id: 'docs/test/index', parentId: 'DocLayout' },
-    'docs/test/test': { path: 'test/test', id: 'docs/test/test', parentId: 'DocLayout' },
+    'docs/guide/index': { path: 'guide', id: 'docs/guide/index', parentId: 'DocLayout' },
     'docs/index': { path: '', id: 'docs/index', parentId: 'DocLayout' },
     'demo-render': { id: 'demo-render', path: '~demos/:id', parentId: 'dumi-context-layout' },
   } as const;
@@ -200,6 +220,12 @@ export async function getRoutes() {
             /* webpackChunkName: "docs__jsTools__object-obj2FormData.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/object-obj2FormData.md'
           ),
       ),
+      'docs/directives/defineDirective': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__directives__defineDirective.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/directives/defineDirective.md'
+          ),
+      ),
       'docs/jsTools/cache-sessionCache': React.lazy(
         () =>
           import(
@@ -252,6 +278,12 @@ export async function getRoutes() {
         () =>
           import(
             /* webpackChunkName: "docs__jsTools__window-copyText.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/window-copyText.md'
+          ),
+      ),
+      'docs/directives/rPermission': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__directives__rPermission.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/directives/rPermission.md'
           ),
       ),
       'docs/jsTools/file-download': React.lazy(
@@ -332,22 +364,34 @@ export async function getRoutes() {
             /* webpackChunkName: "docs__components__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/components/index.md'
           ),
       ),
+      'docs/directives/index': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__directives__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/directives/index.md'
+          ),
+      ),
+      'docs/devTools/index': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__devTools__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/devTools/index.md'
+          ),
+      ),
+      'docs/directives/rIf': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "docs__directives__rIf.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/directives/rIf.md'
+          ),
+      ),
       'docs/jsTools/index': React.lazy(
         () =>
           import(
             /* webpackChunkName: "docs__jsTools__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/index.md'
           ),
       ),
-      'docs/test/index': React.lazy(
+      'docs/guide/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__test__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/test/index.md'
-          ),
-      ),
-      'docs/test/test': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__test__test.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/test/test.md'
+            /* webpackChunkName: "docs__guide__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/guide/index.md'
           ),
       ),
       'docs/index': React.lazy(

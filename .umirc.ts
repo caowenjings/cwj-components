@@ -9,8 +9,7 @@ export default defineConfig({
   logo: 'https://img.alicdn.com/tfs/TB1YHEpwUT1gK0jSZFhXXaAtVXa-28-27.svg',
   history: { type: 'hash' }, // 采用hash模式刷新路由不会丢失
   outputPath: 'build',
-  publicPath: '/',
-  // publicPath: process?.env?.NODE_ENV === 'production' ? 'cwj-components' : '/',
+  publicPath: process?.env?.NODE_ENV === 'production' ? 'cwj-components-docs' : '/',
   runtimePublicPath: true,
   mode: 'site',
   //  按需加载 antd

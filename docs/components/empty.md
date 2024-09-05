@@ -1,4 +1,4 @@
----
+<!-- ---
 order: 11
 ---
 
@@ -14,8 +14,8 @@ order: 11
  * description: 类型为EmptyType.SIMPLE，可以设置描述文字
  */
 import React, { useState } from 'react';
-// import { EmptyData } from '@cwj/components';
-import { EmptyData } from '../../src/empty';
+import { EmptyData } from '@cwj/components';
+// import { EmptyData } from '../../src/empty';
 
 export default () => {
   return (
@@ -35,9 +35,9 @@ export default () => {
  */
 import React, { useState } from 'react';
 import { Button, Space, Input } from 'antd';
-// import { EmptyData } from '@cwj/components';
+import { EmptyData } from '@cwj/components';
 // import { EmptyType } from '@cwj/components/empty';
-import { EmptyData, EmptyType } from '../../src/empty';
+// import { EmptyData, EmptyType } from '../../src/empty';
 
 export default () => {
   return (
@@ -57,9 +57,9 @@ export default () => {
  */
 import React, { useState } from 'react';
 import { Button, Space, Input } from 'antd';
-// import { EmptyData } from '@cwj/components';
-// import { EmptyType } from '@cwj/components/empty';
-import { EmptyData, EmptyType } from '../../src/empty';
+import { EmptyData } from '@cwj/components';
+import { EmptyType } from '@cwj/components/empty';
+// import { EmptyData, EmptyType } from '../../src/empty';
 
 export default () => {
   return (
@@ -79,9 +79,9 @@ export default () => {
  */
 import React, { useState } from 'react';
 import { Button, Space, Input } from 'antd';
-// import { EmptyData } from '@cwj/components';
-// import { EmptyType } from '@cwj/components/empty';
-import { EmptyData, EmptyType } from '../../src/empty';
+import { EmptyData } from '@cwj/components';
+import { EmptyType } from '@cwj/components/empty';
+// import { EmptyData, EmptyType } from '../../src/empty';
 
 export default () => {
   return (
@@ -101,4 +101,4 @@ export default () => {
 
 ```
 
-```
+``` -->

@@ -1,5 +1,5 @@
 ---
-order: 1
+order: 2
 nav:
   title: js工具集
   order: 2
