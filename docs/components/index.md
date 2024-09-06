@@ -3,7 +3,6 @@ order: 1
 nav:
   title: 组件
   order: 2
-  path: /components
 ---
 
 # 组件介绍

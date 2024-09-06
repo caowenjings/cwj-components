@@ -1,5 +1,9 @@
-<!-- ---
-order: 11
+---
+nav:
+  title: 组件
+  path: /products
+group:
+  title: 基础组件
 ---
 
 # Empty 空状态
@@ -8,7 +12,7 @@ order: 11
 
 ### simple 模式
 
-```tsx
+<!-- ```tsx
 /**
  * title: 基本
  * description: 类型为EmptyType.SIMPLE，可以设置描述文字
@@ -24,11 +28,12 @@ export default () => {
     </div>
   );
 };
-```
+``` -->
+<code src="./demos/simple.tsx" />
 
 ### 空数据
 
-```tsx
+<!-- ```tsx
 /**
  * title: 缺省页--空数据
  * description: 类型为EmptyType.NO_DATA
@@ -46,10 +51,11 @@ export default () => {
     </div>
   );
 };
-```
+``` -->
 
 ### 无网络
 
+<!--
 ```tsx
 /**
  * title: 缺省页--无网络
@@ -68,10 +74,11 @@ export default () => {
     </div>
   );
 };
-```
+``` -->
 
 ### 已过期
 
+<!--
 ```tsx
 /**
  * title: 缺省页--已过期
@@ -90,7 +97,7 @@ export default () => {
     </div>
   );
 };
-```
+``` -->
 
 ### API
 
@@ -101,4 +108,4 @@ export default () => {
 
 ```
 
-``` -->
+```

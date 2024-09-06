@@ -143,11 +143,6 @@ export async function getRoutes() {
       id: 'docs/jsTools/validates',
       parentId: 'DocLayout',
     },
-    'docs/components/empty': {
-      path: 'components/empty',
-      id: 'docs/components/empty',
-      parentId: 'DocLayout',
-    },
     'docs/components/index': {
       path: 'components',
       id: 'docs/components/index',
@@ -167,6 +162,12 @@ export async function getRoutes() {
     'docs/jsTools/index': { path: 'js-tools', id: 'docs/jsTools/index', parentId: 'DocLayout' },
     'docs/guide/index': { path: 'guide', id: 'docs/guide/index', parentId: 'DocLayout' },
     'docs/index': { path: '', id: 'docs/index', parentId: 'DocLayout' },
+    'components/empty/index': {
+      id: 'components/empty/index',
+      path: 'components/empty',
+      parentId: 'DocLayout',
+      meta: { _atom_route: true },
+    },
     'demo-render': {
       id: 'demo-render',
       path: '~demos/:id',
@@ -357,12 +358,6 @@ export async function getRoutes() {
             /* webpackChunkName: "docs__jsTools__validates.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/jsTools/validates.md'
           ),
       ),
-      'docs/components/empty': React.lazy(
-        () =>
-          import(
-            /* webpackChunkName: "docs__components__empty.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/components/empty.md'
-          ),
-      ),
       'docs/components/index': React.lazy(
         () =>
           import(
@@ -403,6 +398,12 @@ export async function getRoutes() {
         () =>
           import(
             /* webpackChunkName: "docs__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/docs/index.md'
+          ),
+      ),
+      'components/empty/index': React.lazy(
+        () =>
+          import(
+            /* webpackChunkName: "empty__index.md" */ '/Users/caowenjing/Documents/React练习/组件库/cwj-components-docs/src/empty/index.md'
           ),
       ),
       'demo-render': React.lazy(

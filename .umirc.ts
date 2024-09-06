@@ -17,7 +17,7 @@ export default defineConfig({
     [
       'babel-plugin-import',
       {
-        libraryName: 'antd',
+        libraryName: 'antd', //配置antd全局样式
         libraryDirectory: 'es',
         style: true,
       },
