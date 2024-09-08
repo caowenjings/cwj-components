@@ -5,28 +5,9 @@
     "moduleResolution": "node",
     "jsx": "react",
     "esModuleInterop": true,
-    "types": ["jest", "node"],
-    "strict": false,
+    "types": ["jest"],
+    "strict": true,
     "skipLibCheck": true,
-    "declaration": true,
-    "baseUrl": "./", //
-    "paths": {
-      "@cwj/components*": ["src/*"],
-      "@cwj/components": ["src"]
-    },
-    "allowSyntheticDefaultImports": true
-  },
-  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "typings.d.ts"], // 包含文件
-  "exclude": [
-    "node_modules", // 排除node_modules目录                 // 排除node_modules目录
-    "**/*.spec.ts", // 排除所有的测试文件
-    "lib",
-    "es",
-    "dist",
-    "test",
-    "docs",
-    "tests",
-    "typings",
-    "**/__test__"
-  ]
+    "declaration": true
+  }
 }
