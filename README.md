@@ -1,4 +1,4 @@
-# cwj-components-docs
+# cwj-components
 
 ## Getting Started
 

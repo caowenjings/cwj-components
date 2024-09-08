@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "cwj-components-docs",
+  "name": "cwj-components",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
@@ -16,6 +16,8 @@
   "files": [
     "dist"
   ],
+  "sideEffects": true,
+  "main": "dist/index.js",
   "module": "dist/esm/index.js",
   "typings": "dist/esm/index.d.ts",
   "gitHooks": {

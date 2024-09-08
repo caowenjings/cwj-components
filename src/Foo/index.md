@@ -10,7 +10,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'cwj-components-docs';
+import { Foo } from 'cwj-components';
 
 export default () => <Foo title="First Demo" />;
 ```
