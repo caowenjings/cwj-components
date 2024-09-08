@@ -13,6 +13,7 @@ export default defineConfig({
   runtimePublicPath: true,
   mode: 'site',
   //  按需加载 antd
+  exportStatic: {},
   extraBabelPlugins: [
     [
       'babel-plugin-import',
