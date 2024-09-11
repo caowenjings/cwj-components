@@ -1,18 +1,23 @@
 {
-  "private": true,
+  "private": false,
   "name": "cwj-components",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
     "docs:deploy": "gh-pages -d docs-dist",
-    "build": "father build",
+    "build": "father-build",
     "deploy": "npm run docs:build && npm run docs:deploy",
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build"
   },
+  "keywords": [
+    "组件库"
+  ],
+  "author": "caowenjing",
+  "license": "MIT",
   "files": [
     "dist"
   ],
@@ -32,17 +37,22 @@
     ]
   },
   "dependencies": {
+    "@ant-design/icons": "^5.4.0",
+    "classnames": "^2.5.1",
+    "father-build": "^1.22.5",
     "react": "^18.0.0"
   },
+  "type": "module",
   "devDependencies": {
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^13.0.0",
     "@types/jest": "^27.0.3",
     "@umijs/fabric": "^2.8.1",
+    "@umijs/plugins": "^4.3.19",
     "@umijs/test": "^3.0.5",
     "dumi": "^1.1.0",
-    "father": "^4.0.0-rc.2",
     "gh-pages": "^3.0.0",
+    "father-build": "^1.17.2",
     "lint-staged": "^10.0.7",
     "prettier": "^2.2.1",
     "yorkie": "^2.0.0"
