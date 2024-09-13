@@ -1,7 +1,9 @@
 ---
 nav:
-  title: Components
-  path: /components
+  title: 组件
+  path: /products
+group:
+  title: 基础组件
 ---
 
 ## Foo
@@ -9,10 +11,8 @@ nav:
 Demo:
 
 ```tsx
-import React from 'react';
-import { Foo } from 'cwj-components';
+// import React from 'react';
+// import { Foo } from 'cwj-components';
 
-export default () => <Foo title="First Demo" />;
+// export default () => <Foo title="First Demo" />;
 ```
-
-More skills for writing demo: https://d.umijs.org/guide/basic#write-component-demo
