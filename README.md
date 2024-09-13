@@ -2,32 +2,14 @@
 
 ## Getting Started
 
-Install dependencies,
+### 更新文档执行
+npm run deploy
 
-```bash
-$ npm i
-```
+1.gitub 上查看项目的action看构建结果
+2. setting-》pages -》查看文档
 
-Start the dev server,
+### 文档打包
+npm run docs:build
 
-```bash
-$ npm start
-```
-
-Build documentation,
-
-```bash
-$ npm run docs:build
-```
-
-Run test,
-
-```bash
-$ npm test
-```
-
-Build library via `father`,
-
-```bash
-$ npm run build
-```
+### 组件打包
+npm run build
